@@ -1,0 +1,60 @@
+package AnotherOne;
+
+public class Animal {
+       
+	String nome;
+	String raca;
+	String cor;
+	int peso;
+	int idade;
+	String sexo;
+	String come;
+	String anda;
+	String deita;
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getRaca() {
+		return raca;
+	}
+	public void setRaca(String raca) {
+		this.raca = raca;
+	}
+	public String getCor() {
+		return cor;
+	}
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+	public int getPeso() {
+		return peso;
+	}
+	public void setPeso(int peso) {
+		this.peso = peso;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	public String Come() {
+		return "Come";
+	}
+	public String Anda() {
+		return "Anda";
+	}
+	public String Deita() {
+		return "Deita";
+	}
+}
