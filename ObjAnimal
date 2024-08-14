@@ -1,0 +1,122 @@
+package AnotherOne;
+
+public class ObjAnimal {
+
+	public static void main(String[] args) {
+		Animal coelho1 = new Animal ();
+		Animal pintinho1 = new Animal ();
+		Animal galinha1 = new Animal ();
+		Animal doginho1 = new Animal ();
+		Animal bezerro1 = new Animal ();
+		Animal vaca1 = new Animal ();
+		
+		
+		coelho1.setNome("Pernalonga");
+		coelho1.setRaca("Angorá");
+		coelho1.setCor("Cinza");
+		coelho1.setPeso(4);
+		coelho1.setIdade(3);
+		coelho1.setSexo("Feminino");
+		
+		System.out.println("----- COELHO -----");
+		System.out.println(coelho1.getNome());
+		System.out.println(coelho1.getRaca());
+		System.out.println(coelho1.getCor());
+		System.out.println(coelho1.getPeso());
+		System.out.println(coelho1.getIdade());
+		System.out.println(coelho1.getSexo());
+    System.out.println(coelho1.Come());
+    System.out.println(coelho1.Anda());
+    System.out.println(coelho1.Deita());
+		
+		pintinho1.setNome("Chickenzinho");
+		pintinho1.setRaca("Sedosa");
+		pintinho1.setCor("Amarelo");
+		pintinho1.setPeso(1);
+		pintinho1.setIdade(2);
+		pintinho1.setSexo("Masculino");
+		
+		System.out.println("----- PINTINHO -----");
+		System.out.println(pintinho1.getNome());
+		System.out.println(pintinho1.getRaca());
+		System.out.println(pintinho1.getCor());
+		System.out.println(pintinho1.getPeso());
+		System.out.println(pintinho1.getIdade());
+		System.out.println(pintinho1.getSexo());
+		System.out.println(coelho1.Come());
+    System.out.println(coelho1.Anda());
+    System.out.println(coelho1.Deita());
+		
+		galinha1.setNome("Angola");
+		galinha1.setRaca("Caipira");
+		galinha1.setCor("Marrom");
+		galinha1.setPeso(4);
+		galinha1.setIdade(3);
+		galinha1.setSexo("Feminino");
+		
+		System.out.println("----- GALINHA -----");
+		System.out.println(galinha1.getNome());
+		System.out.println(galinha1.getRaca());
+		System.out.println(galinha1.getCor());
+		System.out.println(galinha1.getPeso());
+		System.out.println(galinha1.getIdade());
+		System.out.println(galinha1.getSexo());
+		System.out.println(coelho1.Come());
+    System.out.println(coelho1.Anda());
+    System.out.println(coelho1.Deita());
+		
+		doginho1.setNome("Scooby-doo");
+		doginho1.setRaca("Husky");
+		doginho1.setCor("Preto");
+		doginho1.setPeso(5);
+		doginho1.setIdade(3);
+		doginho1.setSexo("Masculino");
+		
+		System.out.println("----- CACHORRO -----");
+		System.out.println(doginho1.getNome());
+		System.out.println(doginho1.getRaca());
+		System.out.println(doginho1.getCor());
+		System.out.println(doginho1.getPeso());
+		System.out.println(doginho1.getIdade());
+		System.out.println(doginho1.getSexo());
+		System.out.println(coelho1.Come());
+    System.out.println(coelho1.Anda());
+    System.out.println(coelho1.Deita());
+		
+		bezerro1.setNome("Wilson");
+		bezerro1.setRaca("Nelore");
+		bezerro1.setCor("Amarelo");
+		bezerro1.setPeso(35);
+		bezerro1.setIdade(1);
+		bezerro1.setSexo("Feminino");
+		
+		System.out.println("----- BEZERRO -----");
+		System.out.println(bezerro1.getNome());
+		System.out.println(bezerro1.getRaca());
+		System.out.println(bezerro1.getCor());
+		System.out.println(bezerro1.getPeso());
+		System.out.println(bezerro1.getIdade());
+		System.out.println(bezerro1.getSexo());
+		System.out.println(coelho1.Come());
+    System.out.println(coelho1.Anda());
+    System.out.println(coelho1.Deita());
+		
+		vaca1.setNome("CFFA");
+		vaca1.setRaca("Angus");
+		vaca1.setCor("Preto/Branca");
+		vaca1.setPeso(510);
+		vaca1.setIdade(4);
+		vaca1.setSexo("Feminina");
+		
+		System.out.println("----- VACA -----");
+		System.out.println(vaca1.getNome());
+		System.out.println(vaca1.getRaca());
+		System.out.println(vaca1.getCor());
+		System.out.println(vaca1.getPeso());
+		System.out.println(vaca1.getIdade());
+		System.out.println(vaca1.getSexo());
+		System.out.println(coelho1.Come());
+    System.out.println(coelho1.Anda());
+    System.out.println(coelho1.Deita());						
+	}
+}
