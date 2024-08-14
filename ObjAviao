@@ -1,0 +1,28 @@
+package AnotherOne;
+
+public class ObjAviao {
+
+	public static void main(String[] args) {
+		Aviao aviao1 = new Aviao ();
+		
+		aviao1.setcor("Branco");
+		aviao1.setmodelo("AIRBUS A319-100");
+		aviao1.setempresa("LATAM");
+		aviao1.setcarga(70000);
+		aviao1.setcomprimento(33);
+		aviao1.setlargura(34);
+		
+		System.out.println("----- AVIÃO -----");
+		System.out.println(aviao1.getcor());
+		System.out.println(aviao1.getmodelo());
+		System.out.println(aviao1.getempresa());
+		System.out.println(aviao1.getcarga());
+		System.out.println(aviao1.getcomprimento());
+		System.out.println(aviao1.getlargura());
+		System.out.println(aviao1.Voa());
+		System.out.println(aviao1.Pousa());
+		System.out.println(aviao1.Plana());
+		
+	}
+
+}
